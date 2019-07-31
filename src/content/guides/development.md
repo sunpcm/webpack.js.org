@@ -92,7 +92,7 @@ __src/print.js__
 ``` diff
   export default function printMe() {
 -   console.log('I get called from print.js!');
-+   cosnole.log('I get called from print.js!');
++   console.log('I get called from print.js!');
   }
 ```
 
@@ -110,7 +110,7 @@ print.bundle.js    6.43 kB       1  [emitted]         print
 现在，在浏览器中打开生成的 `index.html` 文件，点击按钮，并且在控制台查看显示的错误。错误应该如下：
 
  ``` bash
- Uncaught ReferenceError: cosnole is not defined
+ Uncaught ReferenceError: console is not defined
     at HTMLButtonElement.printMe (print.js:2)
  ```
 
@@ -176,7 +176,7 @@ __src/print.js__
 
 ``` diff
   export default function printMe() {
--   cosnole.log('I get called from print.js!');
+-   console.log('I get called from print.js!');
 +   console.log('I get called from print.js!');
   }
 ```
